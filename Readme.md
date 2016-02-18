@@ -1,34 +1,64 @@
-git clone <url> / git init .
-git status
+* *Start*
 
-git log
-git show <commit>
-git blame
+`git clone <url>` / `git init .`
 
-git status
-git diff
-git add
-git diff --staged
-git reset <file>
-git commit -m "<message>"
-git push origin <branch-name>
+`git status`
 
-git format-patch <commit-sha>
-git apply <patch-file>
-git am <patch-file>
-git reset --soft <commit-sha>
+* *History*
 
-git reset --hard <commit-sha>
+`git log`
 
-git branch
-git checkout <branch-name>
-git fetch <branch-name>
-git merge <branch-name>
-git pull <branch-name>
-git cherry-pick <commit-sha>
-git rebase <branch-name>
-git branch -d <branch-name>
+`git show <commit>`
 
-git mv
-git rm
-git stash
+`git blame`
+
+
+* *Local commits*
+
+`git diff`
+
+`git add`
+
+`git diff --staged`
+
+`git reset <file>`
+
+`git commit -m "<message>"`
+
+`git push origin <branch-name>`
+
+`git format-patch <commit-sha>`
+
+`git apply <patch-file>`
+
+`git am <patch-file>`
+
+`git reset --soft <commit-sha>`
+
+`git reset --hard <commit-sha>`
+
+* *Branching*
+
+`git branch`
+
+`git checkout <branch-name>`
+
+`git fetch <branch-name>`
+
+`git merge <branch-name>`
+
+`git pull <branch-name>`
+
+`git cherry-pick <commit-sha>`
+
+`git rebase <branch-name>`
+
+`git branch -d <branch-name>`
+
+* *Miscellaneous*
+
+`git mv`
+
+`git rm`
+
+`git stash`
