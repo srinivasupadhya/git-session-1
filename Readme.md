@@ -24,7 +24,7 @@ git log <since>..<until>
 
 `git diff`
 
-`git add`
+`git add` / `git mv` / `git rm`
 
 `git diff --staged`
 
@@ -70,11 +70,3 @@ git stash drop
 `git rebase <branch-name>`
 
 `git branch -d <branch-name>`
-
-* *Miscellaneous*
-
-`git mv`
-
-`git rm`
-
-`git stash`
