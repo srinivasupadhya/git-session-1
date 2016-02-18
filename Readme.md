@@ -39,11 +39,19 @@ git reset --hard <commit-sha>
 
 `git push origin <branch-name>`
 
+`git stash`
+
+```
+git stash save
+git stash list
+git stash show -p stash@{0}
+git stash apply
+git stash drop
+```
+
 `git format-patch <commit-sha>`
 
-`git apply <patch-file>`
-
-`git am <patch-file>`
+`git apply <patch-file>` / `git am <patch-file>`
 
 * *Branching*
 
