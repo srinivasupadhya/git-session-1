@@ -1,4 +1,4 @@
-* *Getting Started*
+* *Start*
 
 `git clone <url>` / `git init .`
 
@@ -18,8 +18,7 @@ git log <since>..<until>
 
 `git show <commit>`
 
-`git blame`
-
+`git blame <file>`
 
 * *Local commits*
 
@@ -31,6 +30,11 @@ git log <since>..<until>
 
 `git reset <file>`
 
+```
+git reset --soft <commit-sha>
+git reset --hard <commit-sha>
+```
+
 `git commit -m "<message>"`
 
 `git push origin <branch-name>`
@@ -40,10 +44,6 @@ git log <since>..<until>
 `git apply <patch-file>`
 
 `git am <patch-file>`
-
-`git reset --soft <commit-sha>`
-
-`git reset --hard <commit-sha>`
 
 * *Branching*
 
