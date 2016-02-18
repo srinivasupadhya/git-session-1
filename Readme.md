@@ -8,6 +8,14 @@
 
 `git log`
 
+```
+git log -<limit>
+git log -p
+git log --author="<pattern>"
+git log --grep="<pattern>"
+git log <since>..<until>
+```
+
 `git show <commit>`
 
 `git blame`
