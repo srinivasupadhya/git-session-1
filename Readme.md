@@ -70,3 +70,6 @@ git stash drop
 `git rebase <branch-name>`
 
 `git branch -d <branch-name>`
+
+* *Miscellaneous*
+
