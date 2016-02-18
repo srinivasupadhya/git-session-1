@@ -1,4 +1,4 @@
-* *Start*
+* *Getting Started*
 
 `git clone <url>` / `git init .`
 
@@ -7,6 +7,8 @@
 * *History*
 
 `git log`
+
+`git show`
 
 ```
 git log -<limit>
