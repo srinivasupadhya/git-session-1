@@ -75,3 +75,4 @@ git stash drop
 
 * *Miscellaneous*
 
+`git clean -fdx`
