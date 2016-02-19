@@ -1,14 +1,14 @@
-* *Getting Started*
+* *Getting Started with git*
 
 `git clone <url>` / `git init .`
 
 `git status`
 
-* *History*
+* *History of changes*
 
 `git log`
 
-`git show`
+`git show <commitid>`
 
 ```
 git log -<limit>
