@@ -1,4 +1,4 @@
-* *Getting Started*
+* *Getting Started with github*
 
 `git clone <url>` / `git init .`
 
