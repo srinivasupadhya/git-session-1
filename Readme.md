@@ -18,7 +18,7 @@ git log --grep="<pattern>"
 git log <since>..<until>
 ```
 
-`git show <commit>`
+`git show <commitid>`
 
 `git blame <file>`
 
